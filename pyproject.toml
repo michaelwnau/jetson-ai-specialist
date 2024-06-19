@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jetson-ai-specialist"
+version = "0.1.0"
+description = "Jetson AI Specialist project."
+authors = ["Michael Nau <michaelwnau@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruff = "^0.4.9"
+torch = "^2.3.1"
+numpy = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
